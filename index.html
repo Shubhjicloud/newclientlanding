@@ -35,18 +35,11 @@
 (window, document, 'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init', '1287122180103594');
+fbq('init', '1408222564531808');
 
-/*
-  PageView tracking.
-  Isko conversion event mat select karna.
-*/
+/* Existing PageView — kept as it was */
 
-/*
-  JOIN TELEGRAM button tracking
-  --------------------------------
-  Sirf isi button par conversion events fire honge.
-*/
+/* JOIN TELEGRAM button tracking */
 document.addEventListener('DOMContentLoaded', function () {
 
     var joinButton = document.getElementById('join-telegram');
@@ -67,6 +60,14 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+<noscript>
+<img
+    height="1"
+    width="1"
+    style="display:none"
+    src="https://www.facebook.com/tr?id=1408222564531808&ev=PageView&noscript=1"
+/>
+</noscript>
 
 <!-- End Meta Pixel Code -->
     
